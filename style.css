@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2pt;
+    padding: 2pt;
+    width: 100%;
+    background-color: white;
+}
+.container{
+    padding: 20px;
+    padding-bottom: -0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: rgb(40, 25, 55);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.border{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 40px;
+    border: 10px solid rgb(255, 255, 255);
+}
+.title{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: -32px;
+    margin-bottom: -30px;
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 13, 63);
+}
+.first-box{
+    color: white;
+    margin: 5%;
+
+}
+.first-box p{
+    font-family: serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+.first-box p span{
+    font-family: 'Kolker Brush', cursive;
+    font-size:200px;
+}
+.second-box, .third-box, .fourth-box, .five-box, .six-box, .seven-box, .eight-box, .nine-box, .ten-box{
+    height: 300px;
+}
+.second-img, .third-img, .fourth-img, .five-img, .six-img, .seven-img, .eight-img, .nine-img{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.second-box img, .third-box img, .fourth-box img, .five-box img, .six-box img, .seven-box img, .eight-box img, .nine-box img {
+    width: 290%;
+    height: 300px;
+    transform: rotate(-4deg);
+    filter: opacity(50%);
+}
+.second-box .text, .third-box .text, .fourth-box .text, .five-box .text, .six-box .text, .seven-box .text, .eight-box .text, .nine-box .text{
+    width: 240%;
+    position: relative;
+    top: -364px;
+    left: -13%;
+    transform: rotate(-4deg);
+    height: 300px;
+    filter: opacity(40%);
+}
+.second-box .text{
+    background-color: white;
+}
+.second-box .text h6, .third-box .text h6, .fourth-box .text h6, .five-box .text h6, .six-box .text h6, .seven-box .text h6, .eight-box .text h6, .nine-box .text h6 {
+    font-size: 20px;
+ 
+}
+.second-box .text h6 span, .third-box .text h6 span, .fourth-box .text h6 span, .five-box .text h6 span, .six-box .text h6 span, .seven-box .text h6 span, .eight-box .text h6 span, .nine-box .text h6 span{
+    font-size: 120px;
+    font-family: 'Kolker Brush', cursive;
+}
+.second-box .text div, .third-box .text div, .fourth-box .text div, .five-box .text div, .six-box .text div, .seven-box .text div, .eight-box .text div, .nine-box .text div{
+    padding: 5px;
+    width: 40%;
+    margin-left: 6%;
+    font-size: 20px;
+    transform: rotate(3deg);
+    letter-spacing: 10px;
+}
+.third-box .text, .fourth-box .text, .five-box .text, .six-box .text, .seven-box .text, .eight-box .text, .nine-box .text{
+    color: white;
+    filter: opacity(60%);
+    font-size: 25%;
+}
+.ten-box{
+    width: 240%;
+    position: relative;
+    color: white;
+    left: -10%;
+    height: 300px;
+    transform: rotate(-3deg);
+    margin-bottom: -2%;
+    background-color: darkgrey;
+}
+.ten-box p{
+    padding: 5px;
+    width: 40%;
+    margin-left: 6%;
+    font-size: 20px;
+    transform: rotate(3deg);
+    letter-spacing: 10px;
+}
