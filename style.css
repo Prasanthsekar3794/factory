@@ -32,13 +32,18 @@ body{
     color: white;
     font-family: sans-serif;
     font-size: 30px;
-    margin-top: -32px;
+    margin-top: -15px;
     margin-bottom: -30px;
     margin-left: 30%;
     width: 40%;
     display: flex;
     justify-content: center;
     background-color: rgb(39, 13, 63);
+}
+
+.fa-solid{
+    color: yellow;
+
 }
 .first-box{
     color: white;
@@ -63,12 +68,14 @@ body{
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    opacity: 0.3;
 }
 .second-box img, .third-box img, .fourth-box img, .five-box img, .six-box img, .seven-box img, .eight-box img, .nine-box img {
     width: 290%;
     height: 300px;
     transform: rotate(-4deg);
-    filter: opacity(50%);
+    filter: opacity(80%);
+    
 }
 .second-box .text, .third-box .text, .fourth-box .text, .five-box .text, .six-box .text, .seven-box .text, .eight-box .text, .nine-box .text{
     width: 240%;
@@ -78,10 +85,12 @@ body{
     transform: rotate(-4deg);
     height: 300px;
     filter: opacity(40%);
+    
 }
 .second-box .text{
     background-color: white;
 }
+
 .second-box .text h6, .third-box .text h6, .fourth-box .text h6, .five-box .text h6, .six-box .text h6, .seven-box .text h6, .eight-box .text h6, .nine-box .text h6 {
     font-size: 20px;
  
@@ -120,4 +129,39 @@ body{
     font-size: 20px;
     transform: rotate(3deg);
     letter-spacing: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .text {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .title p {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .border {
+        padding: 5px;
+    }
 }
