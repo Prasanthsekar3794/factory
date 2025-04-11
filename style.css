@@ -134,6 +134,7 @@ body{
 @media screen and (min-width: 1200px) {
     .container {
         width: 60%;
+        margin-left: 11%;
     }
     .text {
         font-size: 18px;
